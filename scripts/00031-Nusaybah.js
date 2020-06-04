@@ -1,10 +1,8 @@
-function details() {
-    let me={
-        FullName: "Nusaybah Fuad-Gafar",
-        hngId:"HNG-00031",
-        Language:"Javascript",
-        EmailAddress:"fuadgafarnusaybah@gmail.com"
-    }
-    return 'Hello World,this is ${me.FullName} with HNGi7 ID ${me.hngId} using ${me.Language} for stage 2 task ${me.EmailAddress}'
-}
-console.log(details());
+let name = "Nusaybah Fuad-Gafar";
+let HNGID = "HNG-00031";
+let email = "fuadgafarnusaybah@gmail.com";
+let language = "JavaScript";
+
+console.log(
+  `Hello World, this is ${name} with HNGi7 ID ${HNGID} using ${language} for stage 2 task ${email} `
+);
